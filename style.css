@@ -22,7 +22,7 @@ align-items: center;
 flex-direction: column;
 display: flex;
 gap:80px;
-padding-top:25px;
+padding-top:60px;
 
 }
 
@@ -31,7 +31,13 @@ padding-top:25px;
 justify-content: center;
 align-items: center;
 display: flex; 
-gap:35px;
+gap:100px;
+}
+
+.options{ 
+    gap:100px;
+    display: flex;
+
 }
 
 .scoreboard{ 
