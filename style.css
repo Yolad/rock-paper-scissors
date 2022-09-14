@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    height:auto;
+}
+
+.header{ 
+    justify-content: center;
+    display: flex;
+    padding-left:5px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom:5px;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.main{
+
+justify-content: center;
+align-items: center;
+flex-direction: column;
+display: flex;
+gap:80px;
+padding-top:25px;
+
+}
+
+.container{
+
+justify-content: center;
+align-items: center;
+display: flex; 
+gap:35px;
+}
+
+.scoreboard{ 
+
+justify-content: space-around;
+display: flex;
+gap:50px;
+
+} 
+
+.player, 
+.computer{ 
+justify-content: center;
+align-items: center;
+flex-direction: column;
+display: flex;
+}
+.events{ 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    }
+.footer{
+
+justify-content: center;
+display: flex;
+bottom: 0;
+position:absolute;
+width:100%;
+}
